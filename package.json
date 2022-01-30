@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -11,6 +12,7 @@
     "@types/node": "^16.11.21",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -42,9 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@headlessui/react": "^1.4.3",
     "autoprefixer": "^10.4.2",
-    "classnames": "^2.3.1",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.17"
   }
