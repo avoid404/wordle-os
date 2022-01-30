@@ -1,6 +1,6 @@
 # Wordle Open Source
 
-🔗 http://wordleos.herokuapp.com/
+🔗 https://wordleos.herokuapp.com/
 
 Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), I developed Wordle Open Source over the weekend to play it anytime and brush up my front end skills.
 
