@@ -15,6 +15,7 @@ function Cell({value, isCurrent, status}: Props) {
       'border-black dark:border-slate-100': isCurrent,
       'bg-yellow-500 dark:bg-yellow-700 text-white border-yellow-500 dark:border-yellow-700': !isCurrent && status === CharStatus.PRESENT,
       'bg-green-500 dark:bg-green-700 text-white border-green-500 dark:border-green-700': !isCurrent && status === CharStatus.CORRECT,
+      'bg-gray-500 dark:bg-gray-700 text-white border-gray-500 dark:border-gray-700': !isCurrent && status === CharStatus.ABSENT,
     }
   )
   return (
